@@ -15,7 +15,7 @@ int main(void)
 	StartUp();
 	BootISRSetup();
 	PowerDownISRSetup();
-	ops.State = STATE_INIT;
+	//ops.State = STATE_INIT;
 	while(1)
 	{
 		NextState(MesgID);
